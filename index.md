@@ -4,6 +4,14 @@ You can use the [editor on GitHub](https://github.com/dials/kb/edit/master/index
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
+### Howtos
+
+We have a set of howtos:
+{% for howto in site.howtos %}
+* <a href="{{ howto.url }}">{{ howto.name }}</a>
+{% endfor %}
+
+
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
