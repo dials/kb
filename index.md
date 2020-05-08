@@ -8,7 +8,12 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 We have a set of howtos:
 {% for howto in site.howtos %}
-* <a href="{{ howto.url }}">{{ howto.name }}</a> ({{ howto.path }} / {{ howto.relative_path }})
+* <a href="{{ site.baseurl }}{{ howto.url }}">{{ howto.name }}</a> ({{ howto.path }} / {{ howto.relative_path }} / {{ site.baseurl }})
+{% endfor %}
+
+and again in markdown:
+{% for howto in site.howtos %}
+- [{{ howto.name }}]({{ site.baseurl }}{{ howto.url }})
 {% endfor %}
 
 ### Markdown
