@@ -1,5 +1,7 @@
 theme: jekyll-theme-modernist
 
+baseurl: /kb
+
 collections_dir: collections
 
 collections:
