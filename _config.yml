@@ -5,3 +5,4 @@ collections_dir: collections
 collections:
   howtos:
     output: true
+    permalink: /:collection/:name
