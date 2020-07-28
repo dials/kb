@@ -131,6 +131,18 @@ def test_all_expt_ids_have_expts(dials_data, tmpdir):
     assert max(ids) + 1 == len(expt)
 ```
 
+In future the
+
+
+    tmpdir
+
+fixture will be replaced with
+
+    tmp_path
+
+so it's worth checking recently added tests for the best syntax to
+use.
+
 ## Finishing Up
 
 Last but not least a news fragment was added so when the change set is merged we have a record of what changed for the release notes - this is necessarily brief, but may be useful for an end-user to see that a bug they reported has been fixed:
