@@ -98,7 +98,7 @@ gives you access to the new files.
 These data can then be used to add a regression test to the PR, so not only has a bug been found and fixed, but it prevents it from coming back - this is essentially codifying the information in the original issue:
 
 ```
-from dxtbx.model.experiment_list import ExperimentList
+from dxtbx.model import ExperimentList
 from dials.array_family import flex
 import procrunner
 
