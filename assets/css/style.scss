@@ -8,5 +8,15 @@
   background: linear-gradient(top, #33A, #118);
 }
 #forkme_banner {
-  background-color: #cf9c00;
+  background-color: #66d;
+}
+h1, h2, h3, h4, h5, h6 {
+  color: #008;
+}
+h2 {
+  padding-bottom: 0;
+  border-bottom: 1px dotted blue;
+}
+ul, ol, dl {
+  margin-bottom: 0;
 }

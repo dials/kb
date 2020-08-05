@@ -1,5 +1,6 @@
 theme: jekyll-theme-slate
 title: DIALS // knowledgebase
+description: community resources, howtos, meeting minutes
 show_downloads: false
 
 baseurl: /kb
