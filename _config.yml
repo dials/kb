@@ -8,6 +8,9 @@ collections:
   howtos:
     output: true
     permalink: /:collection/:name
+  meetings:
+    output: true
+    permalink: /:collection/:name
 
 defaults:
   - scope:
