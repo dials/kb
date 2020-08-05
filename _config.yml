@@ -1,4 +1,6 @@
-theme: jekyll-theme-modernist
+theme: jekyll-theme-slate
+title: DIALS // knowledgebase
+show_downloads: false
 
 baseurl: /kb
 

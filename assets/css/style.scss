@@ -1,0 +1,12 @@
+---
+---
+
+@import "{{ site.theme }}";
+#header_wrap {
+  background: #118;
+  background: -webkit-linear-gradient(top, #33A, #118);
+  background: linear-gradient(top, #33A, #118);
+}
+#forkme_banner {
+  background-color: #cf9c00;
+}
