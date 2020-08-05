@@ -9,13 +9,28 @@
 }
 #forkme_banner {
   background-color: #66d;
+  transition: all 0.3s;
 }
-h1, h2, h3, h4, h5, h6 {
+#forkme_banner:hover {
+  background-color: #99F;
+}
+h1, h3, h4, h5, h6 {
   color: #008;
 }
+#main_content_wrap h1:first-of-type {
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  padding: 0.2em 0 0 0.4em;
+  background-color: #EEF;
+}
 h2 {
+  color: #00A;
   padding-bottom: 0;
-  border-bottom: 1px dotted blue;
+  border-bottom: 2px dotted #008;
+  background: none;
+}
+h3 {
+  display: inline-block;
+  border-bottom: 1px solid #008;
 }
 ul, ol, dl {
   margin-bottom: 0;
