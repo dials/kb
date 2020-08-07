@@ -1,27 +1,41 @@
-## Welcome to GitHub Pages
+## Welcome to the DIALS community knowledgebase
 
-You can use the [editor on GitHub](https://github.com/dials/kb/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+This is a loose collection of pages supplementing [the main DIALS documentation](https://dials.github.io/).
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-For more details on that file format see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Pages hare are built automatically from [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+files in the [dials/kb](https://github.com/dials/kb) repository.
+Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild these pages.
 
 ### Howtos
 
 We have a set of howtos:
+
+<div style="column-count:2">
+
 {% for howto in site.howtos %}
 - [{{ howto.name }}]({{ site.baseurl }}{{ howto.url }})
 {% endfor %}
 
+</div>
+
 ### Meeting minutes
+
+These are minutes from the DIALS developer meetings, which are concerned with crystallography and tool development:
+
+<div style="column-count:2">
 
 {% for meeting in site.meetings %}
 - [{{ meeting.name }}]({{ site.baseurl }}{{ meeting.url }})
 {% endfor %}
 
-### Jekyll Themes
+</div>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/dials/kb/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+There is a separate track of DIALS core meetings. Those are about releases, packaging, integration, and overall project direction.
 
-### Support or Contact
+<div style="column-count:2">
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+{% for meeting in site.core %}
+- [{{ meeting.name }}]({{ site.baseurl }}{{ meeting.url }})
+{% endfor %}
+
+</div>
