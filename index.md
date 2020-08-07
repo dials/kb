@@ -10,32 +10,27 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 We have a set of howtos:
 
-<div style="column-count:2">
-
+<div style="column-count:2"><ul>
 {% for howto in site.howtos %}
-- [{{ howto.name }}]({{ site.baseurl }}{{ howto.url }})
+<li><a href="{{ site.baseurl }}{{ howto.url }}">{{ howto.name }}</a></li>
 {% endfor %}
-
-</div>
+</ul></div>
 
 ### Meeting minutes
 
 These are minutes from the DIALS developer meetings, which are concerned with crystallography and tool development:
 
-<div style="column-count:2">
-
+<div style="column-count:2"><ul>
 {% for meeting in site.meetings %}
-- [{{ meeting.name }}]({{ site.baseurl }}{{ meeting.url }})
+<li><a href="{{ site.baseurl }}{{ meeting.url }}">{{ meeting.name }}</a></li>
 {% endfor %}
-
-</div>
+</ul></div>
 
 There is a separate track of DIALS core meetings. Those are about releases, packaging, integration, and overall project direction.
 
-<div style="column-count:2">
-
+<div style="column-count:2"><ul>
 {% for meeting in site.core %}
-- [{{ meeting.name }}]({{ site.baseurl }}{{ meeting.url }})
+<li><a href="{{ site.baseurl }}{{ meeting.url }}">{{ meeting.name }}</a></li>
 {% endfor %}
+</ul></div>
 
-</div>
