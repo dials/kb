@@ -2,10 +2,6 @@
 
 This is a loose collection of pages supplementing [the main DIALS documentation](https://dials.github.io/).
 
-Pages hare are built automatically from [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/)
-files in the [dials/kb](https://github.com/dials/kb) repository.
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild these pages.
-
 ### Howtos
 
 We have a set of howtos:
