@@ -35,3 +35,16 @@ h3 {
 ul, ol, dl {
   margin-bottom: 0;
 }
+
+.anchorjs-link {
+  transition: all .25s linear;
+  text-decoration: none;
+  color: #000;
+}
+*:hover > .anchorjs-link {
+  margin-left: -1.125em !important;
+  text-decoration: none;
+}
+.anchorjs-link:hover {
+  color: #ff5231;
+}
