@@ -17,7 +17,7 @@ To use the terminology of the `.xinfo` file, which forms the instruction list fo
 Each xia2 run consists of a `PROJECT`, which has one or more `CRYSTAL`s, each of which may have one or more `WAVELENGTH`s, each of which in turn may have one or more `SWEEP`s.
 This much is detailed in the [xia2 paper](https://journals.iucr.org/j/issues/2010/01/00/ea5113).
 
-What isn't so clear from the paper, is that integrated data are scaled per-`CRYSTAL` and merged per-`WAVELENGTH`.
+What isn't so clear from the paper, is that integrated data are scaled per `CRYSTAL` and merged per `WAVELENGTH`.
 This probably won't surprise you if you do multiple-wavelength studies like MAD, but may not be so obvious if you don't have that background.
 If your work typically involves a single sample measured at a single wavelength, perhaps with multiple sweeps, the distinction (scaling by sample but merging by X-ray wavelength) may have passed you by.
 
