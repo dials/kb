@@ -26,10 +26,10 @@ If your work typically involves a single sample measured at a single wavelength,
 There are really two different ways of running xia2:
 1. The standard way.
    Simply pass in data and allow xia2 (through `xia2setup.py`) to automatically construct an `automatic.xinfo` instruction list for integration and reduction of the data.
-   The `PROJECT` (named `AUTOMATIC`) will have a single `CRYSTAL` (named `DEFAULT`).
-   Each sweep of images will be assigned to a `SWEEP` (named `SWEEP1`–`SWEEP<n>` for _n_ sweeps).
+   The `PROJECT` (named `AUTOMATIC`, by default) will have a single `CRYSTAL` (named `DEFAULT`, by default).
+   Each sweep of images will be assigned to a `SWEEP` (by default, named `SWEEP1`–`SWEEP<n>` for _n_ sweeps).
    The image headers will be interrogated to ascertain the set of unique measurement wavelengths used, according to some tolerance for determining equivalence.
-   The `SWEEP`s will be grouped by wavelength, each group being assigned, unsurprisingly, to a separate `WAVELENGTH` (if there is only one `WAVELENGTH`, it is called `NATIVE`, unless you have told xia2 that the data are anomalous, in which case it is called `SAD`, or if there are _N_ > 1 wavelengths, they are named `WAVE1`–`WAVE<N>`).
+   The `SWEEP`s will be grouped by wavelength, each group being assigned, unsurprisingly, to a separate `WAVELENGTH` (by default, if there is only one `WAVELENGTH`, it is called `NATIVE`, unless you have [told xia2 that the data are anomalous](https://xia2.github.io/parameters.html#commonly-used-program-options), in which case it is called `SAD`, or if there are _N_ > 1 wavelengths, they are named `WAVE1`–`WAVE<N>`).
    There is an implied equivalence here between the label `WAVELENGTH` and the physical wavelength at which all the constituent `SWEEP`s were measured.
 2. The _I-know-what-I'm-doing-get-out-of-my_ way.
    Write or edit a `.xinfo` file yourself.
@@ -43,6 +43,8 @@ But you may not have been aware that the `.xinfo` file allowed for method (2).
 In fact, if you knew about it at all, you might have thought the `.xinfo` instruction list was simply a legacy feature and was just part of the plumbing of method (1).
 That's understandable.
 Beyond the description here, method (2) is not well documented nor sufficiently well tested.  In fact, at the time of writing, it is actually a bit broken for the standard all-DIALS pipeline, see xia2/xia2#560.
+
+There exists a tool `xia2.setup`, which imports the image data and constructs a `.xinfo` file from normal xia2 input, without performing any processing.
 
 ## Surely that's quite complicated enough?
 
