@@ -8,6 +8,7 @@ Files stored in the `collections` directories are added to the respective indexe
 files in directory | go into
 --- | ---
 [`/collections/_howtos`](https://github.com/dials/kb/tree/master/collections/_howtos) | list of howtos
+[`/collections/_explanations`](https://github.com/dials/kb/tree/master/collections/_explanations) | list of discursive explanations
 [`/collections/_meetings`](https://github.com/dials/kb/tree/master/collections/_meetings) | list of regular DIALS developer meeting minutes
 [`/collections/_core`](https://github.com/dials/kb/tree/master/collections/_core) | list of regular DIALS core meeting minutes
 
