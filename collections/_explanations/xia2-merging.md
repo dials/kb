@@ -44,6 +44,9 @@ In fact, if you knew about it at all, you might have thought the `.xinfo` instru
 That's understandable.
 Beyond the description here, method (2) is not well documented nor sufficiently well tested.  In fact, at the time of writing, it is actually a bit broken for the standard all-DIALS pipeline, see xia2/xia2#560.
 
+Method (2) affords a great deal of flexibility for data reduction in less straightforward experiments.
+For example, you could specify that several sweeps of images collected from the same sample should be indexed together with the command line parameter `multi_sweep_indexing=True` but, by separating the `SWEEP`s into different `WAVELENGTH` groups in the `.xinfo` file, keep the reflection intensities in each group separate for the purposes of merging.
+
 There exists a tool `xia2.setup`, which imports the image data and constructs a `.xinfo` file from normal xia2 input, without performing any processing.
 
 ## Surely that's quite complicated enough?
