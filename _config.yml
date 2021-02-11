@@ -11,6 +11,9 @@ collections:
   howtos:
     output: true
     permalink: /:collection/:name
+  explanations:
+    output: true
+    permalink: /:collection/:name
   meetings:
     output: true
     permalink: /:collection/:name

@@ -12,6 +12,16 @@ We have a set of howtos:
 {% endfor %}
 </ul></div>
 
+### Explanations
+
+These documents aim to clarify and illuminate particular topics relating to DIALS code and to how DIALS is used.
+
+<div style="column-count:2"><ul>
+{% for explanation in site.explanations %}
+<li><a href="{{ site.baseurl }}{{ explanation.url }}">{{ explanation.name }}</a></li>
+{% endfor %}
+</ul></div>
+
 ### Meeting minutes
 
 These are minutes from the DIALS developer meetings, which are concerned with crystallography and tool development:
