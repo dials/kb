@@ -1,5 +1,6 @@
 ---
-name: DC1: per-module `setup.py`
+number: DC1
+name: per-module `setup.py`
 tags: proposal
 ---
 

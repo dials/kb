@@ -1,5 +1,6 @@
 ---
-name: DC2: DIALS installer
+number: DC2
+name: DIALS installer
 tags: proposal
 ---
 

@@ -46,7 +46,7 @@ From time to time we discuss and decide on larger proposals – akin to <a href=
 
 <div style="column-count:2"><ul>
 {% for proposal in site.proposals %}
-<li><a href="{{ site.baseurl }}{{ proposal.url }}">{{ proposal.name }}</a></li>
+<li><a href="{{ site.baseurl }}{{ proposal.url }}">{{ proposal.number }}: {{ proposal.name }}</a></li>
 {% endfor %}
 </ul></div>
 
