@@ -32,11 +32,21 @@ These are minutes from the DIALS developer meetings, which are concerned with cr
 {% endfor %}
 </ul></div>
 
+### Project steering
+
 There is a separate track of DIALS core meetings. Those are about releases, packaging, integration, and overall project direction.
 
 <div style="column-count:2"><ul>
 {% for meeting in site.core %}
 <li><a href="{{ site.baseurl }}{{ meeting.url }}">{{ meeting.name }}</a></li>
+{% endfor %}
+</ul></div>
+
+From time to time we discuss and decide on larger proposals &endash; akin to <a href="https://en.wikipedia.org/wiki/Request_for_Comments">RFCs</a>, <a href="https://www.python.org/dev/peps/">PEPs</a>, and <a href="https://numpy.org/neps/nep-0000.html">NEPs</a>.
+
+<div style="column-count:2"><ul>
+{% for meeting in site.proposals %}
+<li><a href="{{ site.baseurl }}{{ proposal.url }}">{{ proposal.name }}</a></li>
 {% endfor %}
 </ul></div>
 

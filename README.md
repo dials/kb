@@ -1,6 +1,6 @@
 ## DIALS knowledgebase
 
-This repository contains a collection of markdown documents that is automatically
+This repository contains collections of markdown documents that are automatically
 published to [https://dials.github.io/kb](https://dials.github.io/kb) after every commit.
 
 Files stored in the `collections` directories are added to the respective indexes:
@@ -11,6 +11,7 @@ files in directory | go into
 [`/collections/_explanations`](https://github.com/dials/kb/tree/master/collections/_explanations) | list of discursive explanations
 [`/collections/_meetings`](https://github.com/dials/kb/tree/master/collections/_meetings) | list of regular DIALS developer meeting minutes
 [`/collections/_core`](https://github.com/dials/kb/tree/master/collections/_core) | list of regular DIALS core meeting minutes
+[`/collections/_proposals`](https://github.com/dials/kb/tree/master/collections/_proposals) | list of DIALS enhancement proposals (DCs)
 
 Meeting minutes are written collaboratively in the [HackMD DIALS team](https://hackmd.io/@dials) and can be directly
 pushed from there into this repository.

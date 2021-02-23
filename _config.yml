@@ -20,6 +20,9 @@ collections:
   core:
     output: true
     permalink: /:collection/:name
+  proposals:
+    output: true
+    permalink: /:collection/:name
 
 defaults:
   - scope:
