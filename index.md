@@ -16,7 +16,7 @@ We have a set of howtos:
 
 These documents aim to clarify and illuminate particular topics relating to DIALS code and to how DIALS is used.
 
-<div style="column-count:2"><ul>
+<div style="column-count:1"><ul>
 {% for explanation in site.explanations %}
 <li><a href="{{ site.baseurl }}{{ explanation.url }}">{{ explanation.name }}</a></li>
 {% endfor %}
@@ -42,10 +42,10 @@ There is a separate track of DIALS core meetings. Those are about releases, pack
 {% endfor %}
 </ul></div>
 
-From time to time we discuss and decide on larger proposals &endash; akin to <a href="https://en.wikipedia.org/wiki/Request_for_Comments">RFCs</a>, <a href="https://www.python.org/dev/peps/">PEPs</a>, and <a href="https://numpy.org/neps/nep-0000.html">NEPs</a>.
+From time to time we discuss and decide on larger proposals – akin to <a href="https://en.wikipedia.org/wiki/Request_for_Comments">RFCs</a>, <a href="https://www.python.org/dev/peps/">PEPs</a>, and <a href="https://numpy.org/neps/nep-0000.html">NEPs</a>.
 
 <div style="column-count:2"><ul>
-{% for meeting in site.proposals %}
+{% for proposal in site.proposals %}
 <li><a href="{{ site.baseurl }}{{ proposal.url }}">{{ proposal.name }}</a></li>
 {% endfor %}
 </ul></div>
