@@ -6,6 +6,16 @@ tags: proposal
 
 # DC2: DIALS installer
 
+
+Proposal | DIALS installer
+--- | ---
+Created | 2020-02-23
+Status | [Accepted](https://dials.github.io/kb/core/20210225#dc2-dials-installer)
+
+[![hackmd-github-sync-badge](https://hackmd.io/csjWOVK5Qz6MJ-52-TLfUQ/badge)](https://hackmd.io/csjWOVK5Qz6MJ-52-TLfUQ)
+---
+
+
 1. **WP1:** We can use [`conda-pack`](https://github.com/conda/conda-pack) to pack up the environment.
     * This does not depend on anything else really, so we can start here.
     * Having this would mean that we have a valid (non-relocated) conda environment in the installation, which would resolve eg. the readline/ncurses issues. So this has an immediate benefit.
