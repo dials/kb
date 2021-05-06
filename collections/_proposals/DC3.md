@@ -1,5 +1,7 @@
 ---
-number: DC3 name: Python version support tags: proposal
+number: DC3
+name: Python version support
+tags: proposal
 ---
 
 # DC3: Supported Python versions
