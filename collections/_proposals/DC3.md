@@ -6,10 +6,10 @@ tags: proposal
 
 # DC3: Supported Python versions
 
-| Proposal | Supported Python versions                         |
-| -------- | ------------------------------------------------- |
-| Created  | 2021-05-06                                        |
-| Status   | [Draft](https://dials.github.io/kb/core/20210506) |
+| Proposal | Supported Python versions                            |
+| -------- | ---------------------------------------------------- |
+| Created  | 2021-05-06                                           |
+| Status   | [Accepted](https://dials.github.io/kb/core/20210603) |
 
 ---
 
