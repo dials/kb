@@ -9,7 +9,7 @@ tags: proposal
 | Proposal | Supported Python versions                            |
 | -------- | ---------------------------------------------------- |
 | Created  | 2021-05-06                                           |
-| Status   | [Accepted](https://dials.github.io/kb/core/20210603) |
+| Status   | [Accepted](https://dials.github.io/kb/core/2021-06-03) |
 
 ---
 

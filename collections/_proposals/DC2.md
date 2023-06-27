@@ -10,7 +10,7 @@ tags: proposal
 Proposal | DIALS installer
 --- | ---
 Created | 2020-02-23
-Status | [Accepted](https://dials.github.io/kb/core/20210225#dc2-dials-installer)
+Status | [Accepted](https://dials.github.io/kb/core/2021-02-25#dc2-dials-installer)
 
 [![hackmd-github-sync-badge](https://hackmd.io/csjWOVK5Qz6MJ-52-TLfUQ/badge)](https://hackmd.io/csjWOVK5Qz6MJ-52-TLfUQ)
 ---
