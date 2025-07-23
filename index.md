@@ -22,19 +22,10 @@ These documents aim to clarify and illuminate particular topics relating to DIAL
 {% endfor %}
 </ul></div>
 
-### Meeting minutes
-
-These are minutes from the DIALS developer meetings, which are concerned with crystallography and tool development:
-
-<div style="column-count:2"><ul>
-{% for meeting in site.meetings reversed %}
-<li><a href="{{ site.baseurl }}{{ meeting.url }}">{{ meeting.name }}</a></li>
-{% endfor %}
-</ul></div>
-
 ### Project steering
 
-There is a separate track of DIALS core meetings. Those are about releases, packaging, integration, and overall project direction.
+These are minutes from the DIALS core meeting group. These meetings are about releases, packaging, integration, and overall project direction, but we also
+discuss crystallography and tool development as the topics arise.
 
 <div style="column-count:2"><ul>
 {% for meeting in site.core reversed %}
@@ -50,3 +41,14 @@ From time to time we discuss and decide on larger proposals – akin to <a href=
 {% endfor %}
 </ul></div>
 
+### Older Meeting minutes
+
+These are minutes from the older DIALS developer meeting series, which were
+concerned with crystallography and tool development. These discussions are
+commonly held in the project steering group now.
+
+<div style="column-count:2"><ul>
+{% for meeting in site.meetings reversed %}
+<li><a href="{{ site.baseurl }}{{ meeting.url }}">{{ meeting.name }}</a></li>
+{% endfor %}
+</ul></div>
