@@ -27,7 +27,7 @@ These documents aim to clarify and illuminate particular topics relating to DIAL
 These are minutes from the DIALS developer meetings, which are concerned with crystallography and tool development:
 
 <div style="column-count:2"><ul>
-{% for meeting in site.meetings %}
+{% for meeting in site.meetings reversed %}
 <li><a href="{{ site.baseurl }}{{ meeting.url }}">{{ meeting.name }}</a></li>
 {% endfor %}
 </ul></div>
@@ -37,7 +37,7 @@ These are minutes from the DIALS developer meetings, which are concerned with cr
 There is a separate track of DIALS core meetings. Those are about releases, packaging, integration, and overall project direction.
 
 <div style="column-count:2"><ul>
-{% for meeting in site.core %}
+{% for meeting in site.core reversed %}
 <li><a href="{{ site.baseurl }}{{ meeting.url }}">{{ meeting.name }}</a></li>
 {% endfor %}
 </ul></div>
