@@ -15,3 +15,5 @@ files in directory | go into
 
 Meeting minutes are written collaboratively in the [HackMD DIALS team](https://hackmd.io/@dials) and can be directly
 pushed from there into this repository.
+
+[Roadmap - proposal](ROADMAP.md)
